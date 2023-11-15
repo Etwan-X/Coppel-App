@@ -35,12 +35,11 @@ class AuthViewController: UIViewController {
     }
     
     @IBAction func logInButtonAction(_ sender: Any) {
-        /*if let email = AuthController().checkEmail(view: self).text, let password = AuthController().checkPassword(view: self).text {
+        if let email = AuthController().checkEmail(view: self).text, let password = AuthController().checkPassword(view: self).text {
             if email != "" && password != "" {
                 AuthController().login(user: User(email: email, password: password), view: self)
             }
-        }*/
-        self.navigationController?.pushViewController(HomeViewController(), animated: true)
+        }
     }
     @IBAction func secureText(_ sender: Any) {
         if passwordTextField.isSecureTextEntry == true {
