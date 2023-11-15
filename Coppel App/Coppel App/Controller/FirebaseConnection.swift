@@ -80,7 +80,7 @@ class FirebaseConnection: NSObject {
         }
     }
     
-    func getRemoteVersion(view: AuthViewController){
+    func getRemoteVersion(view: AuthViewController) {
         setRemoteConfiguration()
         self.remoteConfig.fetchAndActivate { status, error in
             if status != .error {
@@ -96,6 +96,9 @@ class FirebaseConnection: NSObject {
                     }
                 }
             }else{
+                if error.debugDescription.contains("Code=8003") {
+                    
+                }
                 self.remoteConfig.setDefaults(["app_version": NSString("1.0")])
             }
         }

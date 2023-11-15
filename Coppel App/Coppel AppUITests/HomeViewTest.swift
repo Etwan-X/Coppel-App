@@ -1,13 +1,13 @@
 //
-//  Coppel_AppUITests.swift
+//  HomeViewTest.swift
 //  Coppel AppUITests
 //
-//  Created by Etwan on 10/11/23.
+//  Created by Etwan on 15/11/23.
 //
 
 import XCTest
 
-final class Coppel_AppUITests: XCTestCase {
+final class HomeViewTest: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -26,6 +26,31 @@ final class Coppel_AppUITests: XCTestCase {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
+        
+        let email = app.textFields["emailTextField"]
+        XCTAssertTrue(email.exists)
+        
+        email.tap()
+        email.typeText("etwan.x@me.com")
+        
+        let password = app.secureTextFields["passwordTextField"]
+        XCTAssertTrue(password.exists)
+        
+        password.tap()
+        password.typeText("0Sevi11@")
+        
+        let loginButton = app.buttons["logInButton"]
+        XCTAssertTrue(loginButton.exists)
+        
+        loginButton.tap()
+        
+        
+        let categoriaComponent = app.collectionViews["categoriasCollection"]
+        XCTAssertTrue(categoriaComponent.exists)
+        let marcasComponent = app.collectionViews["marcasCollection"]
+        XCTAssertTrue(marcasComponent.exists)
+        let productosComponent = app.collectionViews["productosCollection"]
+        XCTAssertTrue(productosComponent.exists)
 
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }

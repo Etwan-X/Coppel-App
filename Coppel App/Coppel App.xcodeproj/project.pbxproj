@@ -31,12 +31,20 @@
 		EE3000452AFE1B010051597A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3000432AFE1B010051597A /* Main.storyboard */; };
 		EE3000472AFE1B020051597A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3000462AFE1B020051597A /* Assets.xcassets */; };
 		EE30004A2AFE1B020051597A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3000482AFE1B020051597A /* LaunchScreen.storyboard */; };
-		EE30005F2AFE1B020051597A /* Coppel_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE30005E2AFE1B020051597A /* Coppel_AppUITests.swift */; };
-		EE3000612AFE1B020051597A /* Coppel_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3000602AFE1B020051597A /* Coppel_AppUITestsLaunchTests.swift */; };
+		EE30005F2AFE1B020051597A /* InvalidEmailTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE30005E2AFE1B020051597A /* InvalidEmailTest.swift */; };
 		EE30006E2AFE1B650051597A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE30006D2AFE1B650051597A /* GoogleService-Info.plist */; };
 		EE551AAC2B04F171003D7D18 /* AuthViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE551AAB2B04F171003D7D18 /* AuthViewControllerTest.swift */; };
 		EE551AAE2B04F7A2003D7D18 /* VMConnectionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE551AAD2B04F7A2003D7D18 /* VMConnectionTest.swift */; };
 		EE551AB02B04FC74003D7D18 /* ServiceErrorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE551AAF2B04FC74003D7D18 /* ServiceErrorTest.swift */; };
+		EE551AB22B0506FB003D7D18 /* ShowVendidosComponentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE551AB12B0506FA003D7D18 /* ShowVendidosComponentTest.swift */; };
+		EE551AB42B050918003D7D18 /* ShowCategoriasComponentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE551AB32B050918003D7D18 /* ShowCategoriasComponentTest.swift */; };
+		EE551AB62B05095E003D7D18 /* ShowMarcasComponentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE551AB52B05095E003D7D18 /* ShowMarcasComponentTest.swift */; };
+		EE551AB82B0509B9003D7D18 /* HideVendidosComponentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE551AB72B0509B9003D7D18 /* HideVendidosComponentTest.swift */; };
+		EE551ABA2B050B10003D7D18 /* HideCategoriasComponentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE551AB92B050B10003D7D18 /* HideCategoriasComponentTest.swift */; };
+		EE551ABC2B050B84003D7D18 /* HideMarcasComponentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE551ABB2B050B84003D7D18 /* HideMarcasComponentTest.swift */; };
+		EE551ABE2B050E1D003D7D18 /* InvalidPasswordTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE551ABD2B050E1D003D7D18 /* InvalidPasswordTest.swift */; };
+		EE551AC02B050E6D003D7D18 /* LoginSuccessTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE551ABF2B050E6D003D7D18 /* LoginSuccessTest.swift */; };
+		EE551AC22B050F3F003D7D18 /* HomeViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE551AC12B050F3F003D7D18 /* HomeViewTest.swift */; };
 		EE61FA972B02024B002DFA1B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE61FA952B02024B002DFA1B /* HomeViewController.swift */; };
 		EE61FA982B02024B002DFA1B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE61FA962B02024B002DFA1B /* HomeViewController.xib */; };
 		EEE744692B0330A9008B6E39 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = EEE744682B0330A9008B6E39 /* FirebaseAnalytics */; };
@@ -105,12 +113,20 @@
 		EE30004B2AFE1B020051597A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE3000502AFE1B020051597A /* Coppel AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coppel AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE30005A2AFE1B020051597A /* Coppel AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coppel AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE30005E2AFE1B020051597A /* Coppel_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coppel_AppUITests.swift; sourceTree = "<group>"; };
-		EE3000602AFE1B020051597A /* Coppel_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coppel_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE30005E2AFE1B020051597A /* InvalidEmailTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvalidEmailTest.swift; sourceTree = "<group>"; };
 		EE30006D2AFE1B650051597A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EE551AAB2B04F171003D7D18 /* AuthViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewControllerTest.swift; sourceTree = "<group>"; };
 		EE551AAD2B04F7A2003D7D18 /* VMConnectionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMConnectionTest.swift; sourceTree = "<group>"; };
 		EE551AAF2B04FC74003D7D18 /* ServiceErrorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceErrorTest.swift; sourceTree = "<group>"; };
+		EE551AB12B0506FA003D7D18 /* ShowVendidosComponentTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowVendidosComponentTest.swift; sourceTree = "<group>"; };
+		EE551AB32B050918003D7D18 /* ShowCategoriasComponentTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCategoriasComponentTest.swift; sourceTree = "<group>"; };
+		EE551AB52B05095E003D7D18 /* ShowMarcasComponentTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMarcasComponentTest.swift; sourceTree = "<group>"; };
+		EE551AB72B0509B9003D7D18 /* HideVendidosComponentTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideVendidosComponentTest.swift; sourceTree = "<group>"; };
+		EE551AB92B050B10003D7D18 /* HideCategoriasComponentTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideCategoriasComponentTest.swift; sourceTree = "<group>"; };
+		EE551ABB2B050B84003D7D18 /* HideMarcasComponentTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideMarcasComponentTest.swift; sourceTree = "<group>"; };
+		EE551ABD2B050E1D003D7D18 /* InvalidPasswordTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvalidPasswordTest.swift; sourceTree = "<group>"; };
+		EE551ABF2B050E6D003D7D18 /* LoginSuccessTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSuccessTest.swift; sourceTree = "<group>"; };
+		EE551AC12B050F3F003D7D18 /* HomeViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewTest.swift; sourceTree = "<group>"; };
 		EE61FA952B02024B002DFA1B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		EE61FA962B02024B002DFA1B /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		EEE7449E2B035E4A008B6E39 /* ProductosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosCell.swift; sourceTree = "<group>"; };
@@ -202,6 +218,12 @@
 				EE551AAB2B04F171003D7D18 /* AuthViewControllerTest.swift */,
 				EE551AAD2B04F7A2003D7D18 /* VMConnectionTest.swift */,
 				EE551AAF2B04FC74003D7D18 /* ServiceErrorTest.swift */,
+				EE551AB12B0506FA003D7D18 /* ShowVendidosComponentTest.swift */,
+				EE551AB32B050918003D7D18 /* ShowCategoriasComponentTest.swift */,
+				EE551AB52B05095E003D7D18 /* ShowMarcasComponentTest.swift */,
+				EE551AB72B0509B9003D7D18 /* HideVendidosComponentTest.swift */,
+				EE551AB92B050B10003D7D18 /* HideCategoriasComponentTest.swift */,
+				EE551ABB2B050B84003D7D18 /* HideMarcasComponentTest.swift */,
 			);
 			path = "Coppel AppTests";
 			sourceTree = "<group>";
@@ -209,8 +231,10 @@
 		EE30005D2AFE1B020051597A /* Coppel AppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				EE30005E2AFE1B020051597A /* Coppel_AppUITests.swift */,
-				EE3000602AFE1B020051597A /* Coppel_AppUITestsLaunchTests.swift */,
+				EE30005E2AFE1B020051597A /* InvalidEmailTest.swift */,
+				EE551ABD2B050E1D003D7D18 /* InvalidPasswordTest.swift */,
+				EE551ABF2B050E6D003D7D18 /* LoginSuccessTest.swift */,
+				EE551AC12B050F3F003D7D18 /* HomeViewTest.swift */,
 			);
 			path = "Coppel AppUITests";
 			sourceTree = "<group>";
@@ -446,9 +470,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE551AB82B0509B9003D7D18 /* HideVendidosComponentTest.swift in Sources */,
+				EE551ABA2B050B10003D7D18 /* HideCategoriasComponentTest.swift in Sources */,
 				EE551AB02B04FC74003D7D18 /* ServiceErrorTest.swift in Sources */,
 				EE551AAE2B04F7A2003D7D18 /* VMConnectionTest.swift in Sources */,
+				EE551AB42B050918003D7D18 /* ShowCategoriasComponentTest.swift in Sources */,
+				EE551ABC2B050B84003D7D18 /* HideMarcasComponentTest.swift in Sources */,
+				EE551AB22B0506FB003D7D18 /* ShowVendidosComponentTest.swift in Sources */,
 				EE551AAC2B04F171003D7D18 /* AuthViewControllerTest.swift in Sources */,
+				EE551AB62B05095E003D7D18 /* ShowMarcasComponentTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,8 +486,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE30005F2AFE1B020051597A /* Coppel_AppUITests.swift in Sources */,
-				EE3000612AFE1B020051597A /* Coppel_AppUITestsLaunchTests.swift in Sources */,
+				EE30005F2AFE1B020051597A /* InvalidEmailTest.swift in Sources */,
+				EE551AC22B050F3F003D7D18 /* HomeViewTest.swift in Sources */,
+				EE551AC02B050E6D003D7D18 /* LoginSuccessTest.swift in Sources */,
+				EE551ABE2B050E1D003D7D18 /* InvalidPasswordTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

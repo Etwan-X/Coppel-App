@@ -12,7 +12,10 @@
             <connections>
                 <outlet property="banner" destination="SVp-IN-3TP" id="Qv4-N4-Thc"/>
                 <outlet property="bannerImage" destination="JcS-da-BIL" id="u70-JB-Ytx"/>
+                <outlet property="categoriasCollection" destination="Fbh-gn-d43" id="QZ6-Pb-Mdv"/>
                 <outlet property="mantenimientoView" destination="bat-bq-fTh" id="yn6-l2-Gde"/>
+                <outlet property="marcasCollection" destination="Wjm-eK-at3" id="hHW-EV-Jge"/>
+                <outlet property="productosCollection" destination="wtm-3V-XOB" id="6gO-kE-lZp"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
