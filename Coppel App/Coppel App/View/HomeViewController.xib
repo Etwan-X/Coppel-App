@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="Coppel_App" customModuleProvider="target">
+            <connections>
+                <outlet property="banner" destination="SVp-IN-3TP" id="Qv4-N4-Thc"/>
+                <outlet property="bannerImage" destination="JcS-da-BIL" id="u70-JB-Ytx"/>
+                <outlet property="mantenimientoView" destination="bat-bq-fTh" id="yn6-l2-Gde"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Categorías" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7lO-a2-u6H">
+                    <rect key="frame" x="16" y="59" width="361" height="21"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7S2-bs-2Vw" customClass="CategoriaView" customModule="Coppel_App" customModuleProvider="target">
+                    <rect key="frame" x="16" y="91" width="86" height="99.666666666666686"/>
+                    <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Las mejores marcas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7h-jJ-CUE">
+                    <rect key="frame" x="16" y="614" width="361" height="21"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Los predilectos más vendidos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="upp-SN-bXw">
+                    <rect key="frame" x="16" y="206.66666666666666" width="361" height="21"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowshape.forward.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="PeJ-Qo-hse">
+                    <rect key="frame" x="271" y="207" width="41" height="20.666666666666657"/>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fbh-gn-d43" customClass="CategoriasCollectionView" customModule="Coppel_App" customModuleProvider="target">
+                    <rect key="frame" x="19" y="88" width="358" height="90"/>
+                    <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wtm-3V-XOB" customClass="ProductosCollectionView" customModule="Coppel_App" customModuleProvider="target">
+                    <rect key="frame" x="16" y="255.66666666666666" width="361" height="330.33333333333337"/>
+                    <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wjm-eK-at3" customClass="MarcasCollectionView" customModule="Coppel_App" customModuleProvider="target">
+                    <rect key="frame" x="16" y="650" width="361" height="110"/>
+                    <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SVp-IN-3TP">
+                    <rect key="frame" x="16" y="59" width="361" height="759"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Banner Buen fin" translatesAutoresizingMaskIntoConstraints="NO" id="JcS-da-BIL">
+                            <rect key="frame" x="8" y="262" width="345" height="235"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQD-Gc-kem">
+                            <rect key="frame" x="314.33333333333331" y="274" width="49.666666666666686" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="bLf-J9-MZG"/>
+                            </constraints>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="xmark.circle.fill" catalog="system"/>
+                            <connections>
+                                <action selector="closeBanner:" destination="-1" eventType="touchUpInside" id="I86-nQ-fDX"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.40553252551020408" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="JcS-da-BIL" firstAttribute="leading" secondItem="SVp-IN-3TP" secondAttribute="leading" constant="8" id="J9Q-7J-nix"/>
+                        <constraint firstAttribute="trailing" secondItem="lQD-Gc-kem" secondAttribute="trailing" constant="-3" id="PWu-NK-ptN"/>
+                        <constraint firstAttribute="trailing" secondItem="JcS-da-BIL" secondAttribute="trailing" constant="8" id="azL-ie-vu1"/>
+                        <constraint firstItem="lQD-Gc-kem" firstAttribute="top" secondItem="SVp-IN-3TP" secondAttribute="top" constant="274" id="epF-ml-F1U"/>
+                        <constraint firstAttribute="bottom" secondItem="JcS-da-BIL" secondAttribute="bottom" constant="262" id="mMc-GX-7i8"/>
+                        <constraint firstItem="JcS-da-BIL" firstAttribute="top" secondItem="SVp-IN-3TP" secondAttribute="top" constant="262" id="mPv-G4-hcZ"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" id="bat-bq-fTh">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EN MANTENIMIENTO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EgT-gS-inP">
+                            <rect key="frame" x="36" y="344" width="321" height="41"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                            <color key="textColor" red="0.000855652499" green="0.37759518619999999" blue="0.66420263049999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo-coppel" id="w8Z-Mg-Spz">
+                            <rect key="frame" x="76" y="146" width="240" height="128"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="NOz-Vp-fSF"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="SVp-IN-3TP" firstAttribute="top" secondItem="7lO-a2-u6H" secondAttribute="top" id="1iF-AN-6yk"/>
+                <constraint firstItem="Fbh-gn-d43" firstAttribute="top" secondItem="7lO-a2-u6H" secondAttribute="bottom" constant="8" id="AWv-Q8-Qh4"/>
+                <constraint firstItem="SVp-IN-3TP" firstAttribute="leading" secondItem="Wjm-eK-at3" secondAttribute="leading" id="DoY-QH-TfM"/>
+                <constraint firstItem="PeJ-Qo-hse" firstAttribute="top" secondItem="Fbh-gn-d43" secondAttribute="bottom" constant="27.333333333333343" id="FIt-eS-5xY"/>
+                <constraint firstItem="7lO-a2-u6H" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="HO5-7q-8El"/>
+                <constraint firstItem="Fbh-gn-d43" firstAttribute="trailing" secondItem="upp-SN-bXw" secondAttribute="trailing" id="HY3-HB-qcz"/>
+                <constraint firstItem="7lO-a2-u6H" firstAttribute="trailing" secondItem="Fbh-gn-d43" secondAttribute="trailing" id="PRl-cp-Y46"/>
+                <constraint firstItem="upp-SN-bXw" firstAttribute="leading" secondItem="wtm-3V-XOB" secondAttribute="leading" id="Qrk-km-moQ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Wjm-eK-at3" secondAttribute="bottom" constant="58" id="T6v-d8-1eE"/>
+                <constraint firstItem="7lO-a2-u6H" firstAttribute="leading" secondItem="7S2-bs-2Vw" secondAttribute="leading" id="VLJ-dH-Q4E"/>
+                <constraint firstItem="Wjm-eK-at3" firstAttribute="top" secondItem="M7h-jJ-CUE" secondAttribute="bottom" constant="15" id="WdT-3E-Mhm"/>
+                <constraint firstItem="Fbh-gn-d43" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="19" id="Yww-3R-Qjz"/>
+                <constraint firstItem="7S2-bs-2Vw" firstAttribute="leading" secondItem="upp-SN-bXw" secondAttribute="leading" id="bbG-Gh-WSo"/>
+                <constraint firstItem="wtm-3V-XOB" firstAttribute="top" secondItem="upp-SN-bXw" secondAttribute="bottom" constant="28" id="cB4-e3-1iS"/>
+                <constraint firstItem="wtm-3V-XOB" firstAttribute="trailing" secondItem="M7h-jJ-CUE" secondAttribute="trailing" id="cHH-L1-kMU"/>
+                <constraint firstItem="SVp-IN-3TP" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="eKU-rE-vQZ"/>
+                <constraint firstItem="7S2-bs-2Vw" firstAttribute="top" secondItem="7lO-a2-u6H" secondAttribute="bottom" constant="11" id="egb-ju-m0G"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="7S2-bs-2Vw" secondAttribute="trailing" constant="291" id="esX-MI-SeK"/>
+                <constraint firstItem="wtm-3V-XOB" firstAttribute="top" secondItem="PeJ-Qo-hse" secondAttribute="bottom" constant="26.666666666666657" id="g0J-I6-A3a"/>
+                <constraint firstItem="PeJ-Qo-hse" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="271" id="hmj-pQ-VxH"/>
+                <constraint firstItem="PeJ-Qo-hse" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="205.33333333333334" id="iGX-Cw-GIE"/>
+                <constraint firstItem="SVp-IN-3TP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="kji-DA-YHu"/>
+                <constraint firstItem="M7h-jJ-CUE" firstAttribute="top" secondItem="wtm-3V-XOB" secondAttribute="bottom" constant="28" id="nqo-Ij-C6K"/>
+                <constraint firstItem="7lO-a2-u6H" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailingMargin" id="qoN-Fc-YAC"/>
+                <constraint firstItem="Wjm-eK-at3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="650" id="rQv-Fi-H9l"/>
+                <constraint firstItem="upp-SN-bXw" firstAttribute="top" secondItem="7S2-bs-2Vw" secondAttribute="bottom" constant="16" id="rg0-sn-MpT"/>
+                <constraint firstItem="upp-SN-bXw" firstAttribute="centerY" secondItem="PeJ-Qo-hse" secondAttribute="centerY" id="rnO-MT-g9h"/>
+                <constraint firstItem="M7h-jJ-CUE" firstAttribute="trailing" secondItem="Wjm-eK-at3" secondAttribute="trailing" id="stW-3O-xDz"/>
+                <constraint firstItem="M7h-jJ-CUE" firstAttribute="leading" secondItem="Wjm-eK-at3" secondAttribute="leading" id="u4d-7r-Lwo"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="PeJ-Qo-hse" secondAttribute="trailing" constant="81" id="uKy-iD-6Gl"/>
+                <constraint firstItem="wtm-3V-XOB" firstAttribute="leading" secondItem="M7h-jJ-CUE" secondAttribute="leading" id="vSV-rK-Lsy"/>
+                <constraint firstItem="upp-SN-bXw" firstAttribute="trailing" secondItem="wtm-3V-XOB" secondAttribute="trailing" id="wU9-fp-c1A"/>
+                <constraint firstItem="SVp-IN-3TP" firstAttribute="trailing" secondItem="7lO-a2-u6H" secondAttribute="trailing" id="x7V-bg-hig"/>
+            </constraints>
+            <point key="canvasLocation" x="139.69465648854961" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Banner Buen fin" width="1264" height="658"/>
+        <image name="Logo-coppel" width="500" height="300"/>
+        <image name="arrowshape.forward.fill" catalog="system" width="128" height="104"/>
+        <image name="xmark.circle.fill" catalog="system" width="128" height="123"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

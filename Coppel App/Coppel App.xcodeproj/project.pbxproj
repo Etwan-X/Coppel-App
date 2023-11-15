@@ -1,0 +1,871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE0772732B03E9B800EE4967 /* ProductosCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0772712B03E9B800EE4967 /* ProductosCollectionView.swift */; };
+		EE0772742B03E9B800EE4967 /* ProductosCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE0772722B03E9B800EE4967 /* ProductosCollectionView.xib */; };
+		EE0772772B03EE5E00EE4967 /* CategoriasCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0772752B03EE5E00EE4967 /* CategoriasCollectionView.swift */; };
+		EE0772782B03EE5E00EE4967 /* CategoriasCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE0772762B03EE5E00EE4967 /* CategoriasCollectionView.xib */; };
+		EE07727B2B03EF4F00EE4967 /* CategoriasCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0772792B03EF4F00EE4967 /* CategoriasCell.swift */; };
+		EE07727C2B03EF4F00EE4967 /* CategoriasCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE07727A2B03EF4F00EE4967 /* CategoriasCell.xib */; };
+		EE07727F2B03F4E100EE4967 /* MarcasCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07727D2B03F4E100EE4967 /* MarcasCell.swift */; };
+		EE0772802B03F4E100EE4967 /* MarcasCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE07727E2B03F4E100EE4967 /* MarcasCell.xib */; };
+		EE0772832B03F51900EE4967 /* MarcasCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0772812B03F51900EE4967 /* MarcasCollectionView.swift */; };
+		EE0772842B03F51900EE4967 /* MarcasCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE0772822B03F51900EE4967 /* MarcasCollectionView.xib */; };
+		EE0772862B0480A200EE4967 /* FirebaseConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0772852B0480A200EE4967 /* FirebaseConnection.swift */; };
+		EE0772882B04818F00EE4967 /* Categorias.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0772872B04818F00EE4967 /* Categorias.swift */; };
+		EE07728A2B0482B500EE4967 /* TipoCategorias.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0772892B0482B500EE4967 /* TipoCategorias.swift */; };
+		EE2B47472B02139500A62029 /* AuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B47462B02139500A62029 /* AuthController.swift */; };
+		EE2B47492B02165A00A62029 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B47482B02165A00A62029 /* User.swift */; };
+		EE2B474F2B022F8500A62029 /* Articulo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B474E2B022F8500A62029 /* Articulo.swift */; };
+		EE2B47512B02300900A62029 /* TipoEntrega.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B47502B02300900A62029 /* TipoEntrega.swift */; };
+		EE2B47572B02455B00A62029 /* TiposListones.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B47562B02455B00A62029 /* TiposListones.swift */; };
+		EE30003E2AFE1B010051597A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE30003D2AFE1B010051597A /* AppDelegate.swift */; };
+		EE3000402AFE1B010051597A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE30003F2AFE1B010051597A /* SceneDelegate.swift */; };
+		EE3000422AFE1B010051597A /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3000412AFE1B010051597A /* AuthViewController.swift */; };
+		EE3000452AFE1B010051597A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3000432AFE1B010051597A /* Main.storyboard */; };
+		EE3000472AFE1B020051597A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3000462AFE1B020051597A /* Assets.xcassets */; };
+		EE30004A2AFE1B020051597A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3000482AFE1B020051597A /* LaunchScreen.storyboard */; };
+		EE30005F2AFE1B020051597A /* Coppel_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE30005E2AFE1B020051597A /* Coppel_AppUITests.swift */; };
+		EE3000612AFE1B020051597A /* Coppel_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3000602AFE1B020051597A /* Coppel_AppUITestsLaunchTests.swift */; };
+		EE30006E2AFE1B650051597A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE30006D2AFE1B650051597A /* GoogleService-Info.plist */; };
+		EE551AAC2B04F171003D7D18 /* AuthViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE551AAB2B04F171003D7D18 /* AuthViewControllerTest.swift */; };
+		EE551AAE2B04F7A2003D7D18 /* VMConnectionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE551AAD2B04F7A2003D7D18 /* VMConnectionTest.swift */; };
+		EE551AB02B04FC74003D7D18 /* ServiceErrorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE551AAF2B04FC74003D7D18 /* ServiceErrorTest.swift */; };
+		EE61FA972B02024B002DFA1B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE61FA952B02024B002DFA1B /* HomeViewController.swift */; };
+		EE61FA982B02024B002DFA1B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE61FA962B02024B002DFA1B /* HomeViewController.xib */; };
+		EEE744692B0330A9008B6E39 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = EEE744682B0330A9008B6E39 /* FirebaseAnalytics */; };
+		EEE7446B2B0330A9008B6E39 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EEE7446A2B0330A9008B6E39 /* FirebaseAuth */; };
+		EEE7446D2B0330A9008B6E39 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = EEE7446C2B0330A9008B6E39 /* FirebaseCrashlytics */; };
+		EEE7446F2B0330A9008B6E39 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EEE7446E2B0330A9008B6E39 /* FirebaseFirestore */; };
+		EEE744712B0330A9008B6E39 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = EEE744702B0330A9008B6E39 /* FirebaseStorage */; };
+		EEE744732B033146008B6E39 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = EEE744722B033146008B6E39 /* FirebaseAnalyticsOnDeviceConversion */; };
+		EEE744752B033146008B6E39 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EEE744742B033146008B6E39 /* FirebaseAnalyticsSwift */; };
+		EEE744772B033146008B6E39 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = EEE744762B033146008B6E39 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		EEE744792B033146008B6E39 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = EEE744782B033146008B6E39 /* FirebaseAuthCombine-Community */; };
+		EEE7447B2B033146008B6E39 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = EEE7447A2B033146008B6E39 /* FirebaseFirestoreCombine-Community */; };
+		EEE7447D2B033146008B6E39 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EEE7447C2B033146008B6E39 /* FirebaseFirestoreSwift */; };
+		EEE7447F2B033146008B6E39 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = EEE7447E2B033146008B6E39 /* FirebaseStorageCombine-Community */; };
+		EEE744A02B035E4A008B6E39 /* ProductosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE7449E2B035E4A008B6E39 /* ProductosCell.swift */; };
+		EEE744A12B035E4A008B6E39 /* ProductosCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEE7449F2B035E4A008B6E39 /* ProductosCell.xib */; };
+		EEF822332B04A56200D27A2E /* Marcas.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF822322B04A56200D27A2E /* Marcas.swift */; };
+		EEF822352B04C1A200D27A2E /* Marca.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF822342B04C1A200D27A2E /* Marca.swift */; };
+		EEF822372B04CABF00D27A2E /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = EEF822362B04CABF00D27A2E /* FirebaseRemoteConfig */; };
+		EEF822392B04CDD200D27A2E /* CoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF822382B04CDD200D27A2E /* CoreController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE3000512AFE1B020051597A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE3000322AFE1B010051597A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE3000392AFE1B010051597A;
+			remoteInfo = "Coppel App";
+		};
+		EE30005B2AFE1B020051597A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE3000322AFE1B010051597A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE3000392AFE1B010051597A;
+			remoteInfo = "Coppel App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE0772712B03E9B800EE4967 /* ProductosCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosCollectionView.swift; sourceTree = "<group>"; };
+		EE0772722B03E9B800EE4967 /* ProductosCollectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductosCollectionView.xib; sourceTree = "<group>"; };
+		EE0772752B03EE5E00EE4967 /* CategoriasCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriasCollectionView.swift; sourceTree = "<group>"; };
+		EE0772762B03EE5E00EE4967 /* CategoriasCollectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriasCollectionView.xib; sourceTree = "<group>"; };
+		EE0772792B03EF4F00EE4967 /* CategoriasCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriasCell.swift; sourceTree = "<group>"; };
+		EE07727A2B03EF4F00EE4967 /* CategoriasCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriasCell.xib; sourceTree = "<group>"; };
+		EE07727D2B03F4E100EE4967 /* MarcasCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarcasCell.swift; sourceTree = "<group>"; };
+		EE07727E2B03F4E100EE4967 /* MarcasCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarcasCell.xib; sourceTree = "<group>"; };
+		EE0772812B03F51900EE4967 /* MarcasCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarcasCollectionView.swift; sourceTree = "<group>"; };
+		EE0772822B03F51900EE4967 /* MarcasCollectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarcasCollectionView.xib; sourceTree = "<group>"; };
+		EE0772852B0480A200EE4967 /* FirebaseConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseConnection.swift; sourceTree = "<group>"; };
+		EE0772872B04818F00EE4967 /* Categorias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categorias.swift; sourceTree = "<group>"; };
+		EE0772892B0482B500EE4967 /* TipoCategorias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipoCategorias.swift; sourceTree = "<group>"; };
+		EE2B47462B02139500A62029 /* AuthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthController.swift; sourceTree = "<group>"; };
+		EE2B47482B02165A00A62029 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EE2B474E2B022F8500A62029 /* Articulo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articulo.swift; sourceTree = "<group>"; };
+		EE2B47502B02300900A62029 /* TipoEntrega.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipoEntrega.swift; sourceTree = "<group>"; };
+		EE2B47562B02455B00A62029 /* TiposListones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiposListones.swift; sourceTree = "<group>"; };
+		EE30003A2AFE1B010051597A /* Coppel App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coppel App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE30003D2AFE1B010051597A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE30003F2AFE1B010051597A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE3000412AFE1B010051597A /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		EE3000442AFE1B010051597A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE3000462AFE1B020051597A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE3000492AFE1B020051597A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE30004B2AFE1B020051597A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE3000502AFE1B020051597A /* Coppel AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coppel AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE30005A2AFE1B020051597A /* Coppel AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coppel AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE30005E2AFE1B020051597A /* Coppel_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coppel_AppUITests.swift; sourceTree = "<group>"; };
+		EE3000602AFE1B020051597A /* Coppel_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coppel_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE30006D2AFE1B650051597A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EE551AAB2B04F171003D7D18 /* AuthViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewControllerTest.swift; sourceTree = "<group>"; };
+		EE551AAD2B04F7A2003D7D18 /* VMConnectionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMConnectionTest.swift; sourceTree = "<group>"; };
+		EE551AAF2B04FC74003D7D18 /* ServiceErrorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceErrorTest.swift; sourceTree = "<group>"; };
+		EE61FA952B02024B002DFA1B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EE61FA962B02024B002DFA1B /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		EEE7449E2B035E4A008B6E39 /* ProductosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosCell.swift; sourceTree = "<group>"; };
+		EEE7449F2B035E4A008B6E39 /* ProductosCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductosCell.xib; sourceTree = "<group>"; };
+		EEF822322B04A56200D27A2E /* Marcas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marcas.swift; sourceTree = "<group>"; };
+		EEF822342B04C1A200D27A2E /* Marca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marca.swift; sourceTree = "<group>"; };
+		EEF822382B04CDD200D27A2E /* CoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE3000372AFE1B010051597A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE7446D2B0330A9008B6E39 /* FirebaseCrashlytics in Frameworks */,
+				EEE744792B033146008B6E39 /* FirebaseAuthCombine-Community in Frameworks */,
+				EEE744732B033146008B6E39 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				EEE7447B2B033146008B6E39 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				EEE7446F2B0330A9008B6E39 /* FirebaseFirestore in Frameworks */,
+				EEE7447D2B033146008B6E39 /* FirebaseFirestoreSwift in Frameworks */,
+				EEE744692B0330A9008B6E39 /* FirebaseAnalytics in Frameworks */,
+				EEE744752B033146008B6E39 /* FirebaseAnalyticsSwift in Frameworks */,
+				EEE744712B0330A9008B6E39 /* FirebaseStorage in Frameworks */,
+				EEE7446B2B0330A9008B6E39 /* FirebaseAuth in Frameworks */,
+				EEF822372B04CABF00D27A2E /* FirebaseRemoteConfig in Frameworks */,
+				EEE7447F2B033146008B6E39 /* FirebaseStorageCombine-Community in Frameworks */,
+				EEE744772B033146008B6E39 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE30004D2AFE1B020051597A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3000572AFE1B020051597A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE3000312AFE1B010051597A = {
+			isa = PBXGroup;
+			children = (
+				EE30003C2AFE1B010051597A /* Coppel App */,
+				EE3000532AFE1B020051597A /* Coppel AppTests */,
+				EE30005D2AFE1B020051597A /* Coppel AppUITests */,
+				EE30003B2AFE1B010051597A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE30003B2AFE1B010051597A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE30003A2AFE1B010051597A /* Coppel App.app */,
+				EE3000502AFE1B020051597A /* Coppel AppTests.xctest */,
+				EE30005A2AFE1B020051597A /* Coppel AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE30003C2AFE1B010051597A /* Coppel App */ = {
+			isa = PBXGroup;
+			children = (
+				EE30003D2AFE1B010051597A /* AppDelegate.swift */,
+				EE30003F2AFE1B010051597A /* SceneDelegate.swift */,
+				EE3000482AFE1B020051597A /* LaunchScreen.storyboard */,
+				EE3000432AFE1B010051597A /* Main.storyboard */,
+				EE3000412AFE1B010051597A /* AuthViewController.swift */,
+				EE61FA922B01FBA4002DFA1B /* Model */,
+				EE61FA932B01FBD9002DFA1B /* View */,
+				EE61FA942B01FBF5002DFA1B /* Controller */,
+				EE3000462AFE1B020051597A /* Assets.xcassets */,
+				EE30004B2AFE1B020051597A /* Info.plist */,
+				EE30006D2AFE1B650051597A /* GoogleService-Info.plist */,
+			);
+			path = "Coppel App";
+			sourceTree = "<group>";
+		};
+		EE3000532AFE1B020051597A /* Coppel AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE551AAB2B04F171003D7D18 /* AuthViewControllerTest.swift */,
+				EE551AAD2B04F7A2003D7D18 /* VMConnectionTest.swift */,
+				EE551AAF2B04FC74003D7D18 /* ServiceErrorTest.swift */,
+			);
+			path = "Coppel AppTests";
+			sourceTree = "<group>";
+		};
+		EE30005D2AFE1B020051597A /* Coppel AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE30005E2AFE1B020051597A /* Coppel_AppUITests.swift */,
+				EE3000602AFE1B020051597A /* Coppel_AppUITestsLaunchTests.swift */,
+			);
+			path = "Coppel AppUITests";
+			sourceTree = "<group>";
+		};
+		EE61FA922B01FBA4002DFA1B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE2B47482B02165A00A62029 /* User.swift */,
+				EE2B474E2B022F8500A62029 /* Articulo.swift */,
+				EE2B47502B02300900A62029 /* TipoEntrega.swift */,
+				EE2B47562B02455B00A62029 /* TiposListones.swift */,
+				EE0772872B04818F00EE4967 /* Categorias.swift */,
+				EE0772892B0482B500EE4967 /* TipoCategorias.swift */,
+				EEF822322B04A56200D27A2E /* Marcas.swift */,
+				EEF822342B04C1A200D27A2E /* Marca.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE61FA932B01FBD9002DFA1B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE61FA962B02024B002DFA1B /* HomeViewController.xib */,
+				EE61FA952B02024B002DFA1B /* HomeViewController.swift */,
+				EE0772722B03E9B800EE4967 /* ProductosCollectionView.xib */,
+				EE0772712B03E9B800EE4967 /* ProductosCollectionView.swift */,
+				EEE7449F2B035E4A008B6E39 /* ProductosCell.xib */,
+				EEE7449E2B035E4A008B6E39 /* ProductosCell.swift */,
+				EE0772762B03EE5E00EE4967 /* CategoriasCollectionView.xib */,
+				EE0772752B03EE5E00EE4967 /* CategoriasCollectionView.swift */,
+				EE07727A2B03EF4F00EE4967 /* CategoriasCell.xib */,
+				EE0772792B03EF4F00EE4967 /* CategoriasCell.swift */,
+				EE0772822B03F51900EE4967 /* MarcasCollectionView.xib */,
+				EE0772812B03F51900EE4967 /* MarcasCollectionView.swift */,
+				EE07727E2B03F4E100EE4967 /* MarcasCell.xib */,
+				EE07727D2B03F4E100EE4967 /* MarcasCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE61FA942B01FBF5002DFA1B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EE2B47462B02139500A62029 /* AuthController.swift */,
+				EE0772852B0480A200EE4967 /* FirebaseConnection.swift */,
+				EEF822382B04CDD200D27A2E /* CoreController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE3000392AFE1B010051597A /* Coppel App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3000642AFE1B020051597A /* Build configuration list for PBXNativeTarget "Coppel App" */;
+			buildPhases = (
+				EE3000362AFE1B010051597A /* Sources */,
+				EE3000372AFE1B010051597A /* Frameworks */,
+				EE3000382AFE1B010051597A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coppel App";
+			packageProductDependencies = (
+				EEE744682B0330A9008B6E39 /* FirebaseAnalytics */,
+				EEE7446A2B0330A9008B6E39 /* FirebaseAuth */,
+				EEE7446C2B0330A9008B6E39 /* FirebaseCrashlytics */,
+				EEE7446E2B0330A9008B6E39 /* FirebaseFirestore */,
+				EEE744702B0330A9008B6E39 /* FirebaseStorage */,
+				EEE744722B033146008B6E39 /* FirebaseAnalyticsOnDeviceConversion */,
+				EEE744742B033146008B6E39 /* FirebaseAnalyticsSwift */,
+				EEE744762B033146008B6E39 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				EEE744782B033146008B6E39 /* FirebaseAuthCombine-Community */,
+				EEE7447A2B033146008B6E39 /* FirebaseFirestoreCombine-Community */,
+				EEE7447C2B033146008B6E39 /* FirebaseFirestoreSwift */,
+				EEE7447E2B033146008B6E39 /* FirebaseStorageCombine-Community */,
+				EEF822362B04CABF00D27A2E /* FirebaseRemoteConfig */,
+			);
+			productName = "Coppel App";
+			productReference = EE30003A2AFE1B010051597A /* Coppel App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE30004F2AFE1B020051597A /* Coppel AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3000672AFE1B020051597A /* Build configuration list for PBXNativeTarget "Coppel AppTests" */;
+			buildPhases = (
+				EE30004C2AFE1B020051597A /* Sources */,
+				EE30004D2AFE1B020051597A /* Frameworks */,
+				EE30004E2AFE1B020051597A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE3000522AFE1B020051597A /* PBXTargetDependency */,
+			);
+			name = "Coppel AppTests";
+			productName = "Coppel AppTests";
+			productReference = EE3000502AFE1B020051597A /* Coppel AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE3000592AFE1B020051597A /* Coppel AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE30006A2AFE1B020051597A /* Build configuration list for PBXNativeTarget "Coppel AppUITests" */;
+			buildPhases = (
+				EE3000562AFE1B020051597A /* Sources */,
+				EE3000572AFE1B020051597A /* Frameworks */,
+				EE3000582AFE1B020051597A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE30005C2AFE1B020051597A /* PBXTargetDependency */,
+			);
+			name = "Coppel AppUITests";
+			productName = "Coppel AppUITests";
+			productReference = EE30005A2AFE1B020051597A /* Coppel AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE3000322AFE1B010051597A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EE3000392AFE1B010051597A = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					EE30004F2AFE1B020051597A = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = EE3000392AFE1B010051597A;
+					};
+					EE3000592AFE1B020051597A = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = EE3000392AFE1B010051597A;
+					};
+				};
+			};
+			buildConfigurationList = EE3000352AFE1B010051597A /* Build configuration list for PBXProject "Coppel App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE3000312AFE1B010051597A;
+			packageReferences = (
+				EE2B47352B020E5E00A62029 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = EE30003B2AFE1B010051597A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE3000392AFE1B010051597A /* Coppel App */,
+				EE30004F2AFE1B020051597A /* Coppel AppTests */,
+				EE3000592AFE1B020051597A /* Coppel AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE3000382AFE1B010051597A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0772842B03F51900EE4967 /* MarcasCollectionView.xib in Resources */,
+				EE0772802B03F4E100EE4967 /* MarcasCell.xib in Resources */,
+				EE30004A2AFE1B020051597A /* LaunchScreen.storyboard in Resources */,
+				EE30006E2AFE1B650051597A /* GoogleService-Info.plist in Resources */,
+				EE61FA982B02024B002DFA1B /* HomeViewController.xib in Resources */,
+				EE07727C2B03EF4F00EE4967 /* CategoriasCell.xib in Resources */,
+				EEE744A12B035E4A008B6E39 /* ProductosCell.xib in Resources */,
+				EE3000472AFE1B020051597A /* Assets.xcassets in Resources */,
+				EE0772742B03E9B800EE4967 /* ProductosCollectionView.xib in Resources */,
+				EE0772782B03EE5E00EE4967 /* CategoriasCollectionView.xib in Resources */,
+				EE3000452AFE1B010051597A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE30004E2AFE1B020051597A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3000582AFE1B020051597A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE3000362AFE1B010051597A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0772862B0480A200EE4967 /* FirebaseConnection.swift in Sources */,
+				EE3000422AFE1B010051597A /* AuthViewController.swift in Sources */,
+				EE07727B2B03EF4F00EE4967 /* CategoriasCell.swift in Sources */,
+				EE07727F2B03F4E100EE4967 /* MarcasCell.swift in Sources */,
+				EE0772772B03EE5E00EE4967 /* CategoriasCollectionView.swift in Sources */,
+				EEF822332B04A56200D27A2E /* Marcas.swift in Sources */,
+				EE2B47472B02139500A62029 /* AuthController.swift in Sources */,
+				EE30003E2AFE1B010051597A /* AppDelegate.swift in Sources */,
+				EEF822352B04C1A200D27A2E /* Marca.swift in Sources */,
+				EE0772832B03F51900EE4967 /* MarcasCollectionView.swift in Sources */,
+				EE3000402AFE1B010051597A /* SceneDelegate.swift in Sources */,
+				EE2B474F2B022F8500A62029 /* Articulo.swift in Sources */,
+				EE61FA972B02024B002DFA1B /* HomeViewController.swift in Sources */,
+				EE0772732B03E9B800EE4967 /* ProductosCollectionView.swift in Sources */,
+				EE2B47512B02300900A62029 /* TipoEntrega.swift in Sources */,
+				EE0772882B04818F00EE4967 /* Categorias.swift in Sources */,
+				EE2B47492B02165A00A62029 /* User.swift in Sources */,
+				EEF822392B04CDD200D27A2E /* CoreController.swift in Sources */,
+				EE07728A2B0482B500EE4967 /* TipoCategorias.swift in Sources */,
+				EE2B47572B02455B00A62029 /* TiposListones.swift in Sources */,
+				EEE744A02B035E4A008B6E39 /* ProductosCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE30004C2AFE1B020051597A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE551AB02B04FC74003D7D18 /* ServiceErrorTest.swift in Sources */,
+				EE551AAE2B04F7A2003D7D18 /* VMConnectionTest.swift in Sources */,
+				EE551AAC2B04F171003D7D18 /* AuthViewControllerTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3000562AFE1B020051597A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE30005F2AFE1B020051597A /* Coppel_AppUITests.swift in Sources */,
+				EE3000612AFE1B020051597A /* Coppel_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE3000522AFE1B020051597A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE3000392AFE1B010051597A /* Coppel App */;
+			targetProxy = EE3000512AFE1B020051597A /* PBXContainerItemProxy */;
+		};
+		EE30005C2AFE1B020051597A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE3000392AFE1B010051597A /* Coppel App */;
+			targetProxy = EE30005B2AFE1B020051597A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE3000432AFE1B010051597A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE3000442AFE1B010051597A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE3000482AFE1B020051597A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE3000492AFE1B020051597A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE3000622AFE1B020051597A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE3000632AFE1B020051597A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE3000652AFE1B020051597A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P78ENF28B6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Coppel App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.exi.Practica-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE3000662AFE1B020051597A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P78ENF28B6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Coppel App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.exi.Practica-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE3000682AFE1B020051597A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P78ENF28B6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.exi.Coppel-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coppel App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coppel App";
+			};
+			name = Debug;
+		};
+		EE3000692AFE1B020051597A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P78ENF28B6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.exi.Coppel-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coppel App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coppel App";
+			};
+			name = Release;
+		};
+		EE30006B2AFE1B020051597A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P78ENF28B6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.exi.Coppel-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coppel App";
+			};
+			name = Debug;
+		};
+		EE30006C2AFE1B020051597A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P78ENF28B6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.exi.Coppel-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coppel App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE3000352AFE1B010051597A /* Build configuration list for PBXProject "Coppel App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3000622AFE1B020051597A /* Debug */,
+				EE3000632AFE1B020051597A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE3000642AFE1B020051597A /* Build configuration list for PBXNativeTarget "Coppel App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3000652AFE1B020051597A /* Debug */,
+				EE3000662AFE1B020051597A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE3000672AFE1B020051597A /* Build configuration list for PBXNativeTarget "Coppel AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3000682AFE1B020051597A /* Debug */,
+				EE3000692AFE1B020051597A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE30006A2AFE1B020051597A /* Build configuration list for PBXNativeTarget "Coppel AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE30006B2AFE1B020051597A /* Debug */,
+				EE30006C2AFE1B020051597A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EE2B47352B020E5E00A62029 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.17.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EEE744682B0330A9008B6E39 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE2B47352B020E5E00A62029 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		EEE7446A2B0330A9008B6E39 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE2B47352B020E5E00A62029 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		EEE7446C2B0330A9008B6E39 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE2B47352B020E5E00A62029 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		EEE7446E2B0330A9008B6E39 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE2B47352B020E5E00A62029 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		EEE744702B0330A9008B6E39 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE2B47352B020E5E00A62029 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		EEE744722B033146008B6E39 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE2B47352B020E5E00A62029 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		EEE744742B033146008B6E39 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE2B47352B020E5E00A62029 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		EEE744762B033146008B6E39 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE2B47352B020E5E00A62029 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		EEE744782B033146008B6E39 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE2B47352B020E5E00A62029 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		EEE7447A2B033146008B6E39 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE2B47352B020E5E00A62029 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		EEE7447C2B033146008B6E39 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE2B47352B020E5E00A62029 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		EEE7447E2B033146008B6E39 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE2B47352B020E5E00A62029 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		EEF822362B04CABF00D27A2E /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE2B47352B020E5E00A62029 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EE3000322AFE1B010051597A /* Project object */;
+}
