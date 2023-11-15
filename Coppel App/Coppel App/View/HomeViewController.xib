@@ -62,35 +62,6 @@
                     <rect key="frame" x="16" y="650" width="361" height="110"/>
                     <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                 </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SVp-IN-3TP">
-                    <rect key="frame" x="16" y="59" width="361" height="759"/>
-                    <subviews>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Banner Buen fin" translatesAutoresizingMaskIntoConstraints="NO" id="JcS-da-BIL">
-                            <rect key="frame" x="8" y="262" width="345" height="235"/>
-                        </imageView>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQD-Gc-kem">
-                            <rect key="frame" x="314.33333333333331" y="274" width="49.666666666666686" height="40"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="40" id="bLf-J9-MZG"/>
-                            </constraints>
-                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <state key="normal" title="Button"/>
-                            <buttonConfiguration key="configuration" style="plain" image="xmark.circle.fill" catalog="system"/>
-                            <connections>
-                                <action selector="closeBanner:" destination="-1" eventType="touchUpInside" id="I86-nQ-fDX"/>
-                            </connections>
-                        </button>
-                    </subviews>
-                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.40553252551020408" colorSpace="custom" customColorSpace="sRGB"/>
-                    <constraints>
-                        <constraint firstItem="JcS-da-BIL" firstAttribute="leading" secondItem="SVp-IN-3TP" secondAttribute="leading" constant="8" id="J9Q-7J-nix"/>
-                        <constraint firstAttribute="trailing" secondItem="lQD-Gc-kem" secondAttribute="trailing" constant="-3" id="PWu-NK-ptN"/>
-                        <constraint firstAttribute="trailing" secondItem="JcS-da-BIL" secondAttribute="trailing" constant="8" id="azL-ie-vu1"/>
-                        <constraint firstItem="lQD-Gc-kem" firstAttribute="top" secondItem="SVp-IN-3TP" secondAttribute="top" constant="274" id="epF-ml-F1U"/>
-                        <constraint firstAttribute="bottom" secondItem="JcS-da-BIL" secondAttribute="bottom" constant="262" id="mMc-GX-7i8"/>
-                        <constraint firstItem="JcS-da-BIL" firstAttribute="top" secondItem="SVp-IN-3TP" secondAttribute="top" constant="262" id="mPv-G4-hcZ"/>
-                    </constraints>
-                </view>
                 <view contentMode="scaleToFill" id="bat-bq-fTh">
                     <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -109,6 +80,31 @@
                     </subviews>
                     <viewLayoutGuide key="safeArea" id="NOz-Vp-fSF"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SVp-IN-3TP">
+                    <rect key="frame" x="16" y="59" width="361" height="759"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Banner Buen fin" translatesAutoresizingMaskIntoConstraints="NO" id="JcS-da-BIL">
+                            <rect key="frame" x="8" y="262" width="345" height="235"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQD-Gc-kem">
+                            <rect key="frame" x="314" y="274" width="50" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="xmark.circle.fill" catalog="system"/>
+                            <connections>
+                                <action selector="closeBanner:" destination="-1" eventType="touchUpInside" id="I86-nQ-fDX"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.40553252551020408" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="JcS-da-BIL" firstAttribute="leading" secondItem="SVp-IN-3TP" secondAttribute="leading" constant="8" id="J9Q-7J-nix"/>
+                        <constraint firstAttribute="trailing" secondItem="JcS-da-BIL" secondAttribute="trailing" constant="8" id="azL-ie-vu1"/>
+                        <constraint firstAttribute="bottom" secondItem="JcS-da-BIL" secondAttribute="bottom" constant="262" id="mMc-GX-7i8"/>
+                        <constraint firstItem="JcS-da-BIL" firstAttribute="top" secondItem="SVp-IN-3TP" secondAttribute="top" constant="262" id="mPv-G4-hcZ"/>
+                    </constraints>
                 </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

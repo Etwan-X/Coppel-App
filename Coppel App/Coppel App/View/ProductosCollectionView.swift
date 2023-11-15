@@ -41,19 +41,17 @@ class ProductosCollectionView: UIView {
 
 extension ProductosCollectionView: UICollectionViewDataSource, UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        if productos.count == 0 {
+            return 5
+        }
         return productos.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ProductosCell", for: indexPath) as! ProductosCell
-        cell.descripcionLabel.text = productos[indexPath.row].descripcion
-        cell.descuento.text = productos[indexPath.row].precioDesc
-        cell.precio.text = productos[indexPath.row].precio
-        CoreController().cargarImagen(urlImg: productos[indexPath.row].image, image: cell.productImage)
-        cell.habilitaOpcion(status: productos[indexPath.row].exclusivo, image: cell.exclusivoLabel)
-        cell.habilitaOpcion(status: productos[indexPath.row].envio, image: cell.envioLabel)
-        cell.habilitaOpcion(status: productos[indexPath.row].sucursal, image: cell.sucursalLabel)
-        cell.habilitaOpcion(status: productos[indexPath.row].oferta, image: cell.ofertaLabel)
+        if productos.count != 0 {
+            ProductosController().loadData(cell: cell, productos: productos[indexPath.row])
+        }
         return cell
     }
 }

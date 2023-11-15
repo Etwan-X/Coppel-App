@@ -41,13 +41,17 @@ class CategoriasCollectionView: UIView {
 
 extension CategoriasCollectionView: UICollectionViewDataSource, UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        if categorias.count == 0 {
+            return 5
+        }
         return categorias.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CategoriasCell", for: indexPath) as! CategoriasCell
-        CoreController().cargarImagen(urlImg: categorias[indexPath.row].urlImage, image: cell.imagenCategoria)
-        cell.nombreCategoria.text = categorias[indexPath.row].tipo
+        if categorias.count != 0 {
+            CategoriasController().loadData(cell: cell, categoria: categorias[indexPath.row])
+        }
         return cell
     }
 }

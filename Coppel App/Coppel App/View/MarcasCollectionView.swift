@@ -40,12 +40,17 @@ class MarcasCollectionView: UIView {
 
 extension MarcasCollectionView: UICollectionViewDataSource, UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        if marcas.count == 0 {
+            return 5
+        }
         return marcas.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MarcasCell.identifier, for: indexPath) as! MarcasCell
-        CoreController().cargarImagen(urlImg: marcas[indexPath.row].urlImage, image: cell.image)
+        if marcas.count != 0 {
+            MarcasController().loadData(cell: cell, marca: marcas[indexPath.row])
+        }
         return cell
     }
 }
